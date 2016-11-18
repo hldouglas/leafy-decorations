@@ -29,16 +29,25 @@ html {
   background-image: url("../images/leaf-icon.svg");
   background-color: #fff;
   background-repeat: no-repeat;
+  background-position: .75em;
+  background-size: 64px;
   color: #145b1d;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  background:
+    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%),
+    url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: .75em center;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
